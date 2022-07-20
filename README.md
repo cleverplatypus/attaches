@@ -140,7 +140,7 @@ var editor = EditorJS({
       class: AttachesTool,
       config: {
         uploader: {
-          uploadByFile : async (file:File) => {
+          uploadByFile : async (file) => {
             try {
             const result = await myUploadFunction(file);
             return {
